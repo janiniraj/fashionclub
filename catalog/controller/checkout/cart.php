@@ -431,8 +431,14 @@ class ControllerCheckoutCart extends Controller {
 	protected function validateCoupon() {
 		$this->load->model('checkout/coupon');
 				
-		$coupon_info = $this->model_checkout_coupon->getCoupon($this->request->post['coupon']);			
-		
+		$coupon_info = $this->model_checkout_coupon->getCoupon($this->request->post['coupon']);	
+
+		if(isset($coupon_info['coupon_id']) && $coupon_info['coupon_id'] == 18 && date('D') != 'Thu')
+		{
+			$this->error['warning'] = $this->language->get('error_coupon');
+			return false;
+		}
+
 		if (!$coupon_info) {			
 			$this->error['warning'] = $this->language->get('error_coupon');
 		}
