@@ -1,0 +1,3791 @@
+---------- Date: 2014-02-07 04:19:17 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /admin/
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+VQModObject::parseMods - Could not resolve path for [catalog/language/malay/common/footer.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/malay/module/information.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/malay/checkout/success.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/malay/mail/order.php] (SKIPPED)
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 04:22:01 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=58
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 04:25:23 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=147&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 04:28:01 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 04:28:36 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 04:28:54 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 04:40:02 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=135
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:03:42 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59_67&amp;product_id=120
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:05:05 ~ IP : 46.38.48.66 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:07:32 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61_73
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/hdwplayer_catalog.xml
+   id        : HDW Player
+   version   : 1.0.0
+   vqmver    : 2.2.1
+   author    : 
+
+File Name    : catalog/view/theme/*/template/product/category.tpl(2)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <div class="description"><?php echo $product['description']; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:08:10 ~ IP : 36.83.146.226 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:13:44 ~ IP : 207.189.121.41 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:14:12 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=105
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:31:46 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=91
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:33:42 ~ IP : 219.92.5.225 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:41:27 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=121
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 05:56:49 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=122
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:03:20 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=153
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:09:31 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=3
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:10:18 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=52
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:10:47 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=6
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:24:35 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=50
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:28:06 ~ IP : 46.185.190.128 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:30:06 ~ IP : 36.37.201.69 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:30:59 ~ IP : 36.37.201.69 ----------
+REQUEST URI : /?route=information/storelocation
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:34:14 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=67
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:39:25 ~ IP : 212.175.150.121 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:45:14 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=100&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:49:15 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=135
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:50:53 ~ IP : 37.228.107.107 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 06:51:14 ~ IP : 37.228.107.107 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:01:43 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=information/contact
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:04:01 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=62
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:04:12 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=64
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:05:26 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:08:33 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=72
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:13:46 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=120&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:26:37 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:43:14 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:43:29 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=151
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:43:47 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=7
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:43:48 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /?route=information/storelocation
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:44:06 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /?route=information/promotions
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:44:38 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:45:37 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=79
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:45:50 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:46:33 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:46:40 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:47:00 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:47:20 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:47:35 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=81
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:47:44 ~ IP : 60.48.35.89 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=133
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:54:43 ~ IP : 109.68.191.26 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:59:11 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=133
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 07:59:40 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61index.php?route=product/category&amp;path=61
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:04:55 ~ IP : 178.154.243.117 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=53
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:13:41 ~ IP : 46.165.197.151 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:14:19 ~ IP : 175.139.246.193 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:14:23 ~ IP : 175.139.246.193 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:14:35 ~ IP : 175.139.246.193 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:14:51 ~ IP : 175.139.246.193 ----------
+REQUEST URI : /?route=information/promotions
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:14:59 ~ IP : 175.139.246.193 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:20:36 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=55&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:21:05 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=152
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:34:49 ~ IP : 124.82.20.60 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:35:00 ~ IP : 124.82.20.60 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:35:44 ~ IP : 124.82.20.60 ----------
+REQUEST URI : /?route=information/promotions
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:36:40 ~ IP : 124.82.20.60 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:36:46 ~ IP : 124.82.20.60 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:37:13 ~ IP : 124.82.20.60 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:37:14 ~ IP : 124.82.20.60 ----------
+REQUEST URI : /?route=information/promotions
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:37:17 ~ IP : 124.82.20.60 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:38:05 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=77
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:48:00 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=108
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:50:11 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 08:57:39 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=135
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 09:14:23 ~ IP : 178.154.243.117 ----------
+REQUEST URI : /?route=information/about
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 09:15:56 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=67
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 09:20:11 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=136
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 09:39:42 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=54
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 09:44:46 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=151
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 09:45:17 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=account/forgotten
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 09:56:02 ~ IP : 208.115.111.72 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=122
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 09:56:57 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=119
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:06:17 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=129
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:08:30 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=77&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:14:28 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:16:16 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=149
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:18:43 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:23:26 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:23:51 ~ IP : 178.154.243.117 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=145
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:25:47 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:26:17 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:26:54 ~ IP : 93.219.89.49 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:31:04 ~ IP : 168.167.196.201 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:33:26 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=122
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:33:37 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=58&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:33:43 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61_71
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:34:03 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=99&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:34:18 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:34:25 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=135
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:34:37 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=123&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:34:44 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=59&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:34:45 ~ IP : 82.153.93.229 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:34:53 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /?route=information/promotions
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:35:02 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:35:05 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:35:07 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=79
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:35:11 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /?route=information/media
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:35:15 ~ IP : 110.159.231.129 ----------
+REQUEST URI : /?route=information/customerservice
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:42:23 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=127
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:43:27 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=68
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:54:53 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60_75
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:54:56 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=120
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 10:57:59 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=146
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:09:09 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=102
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:10:54 ~ IP : 66.249.73.103 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=122
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:31:40 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=151
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:36:23 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=95
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:37:22 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /?route=information/customerservice
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:37:40 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /?route=information/contact
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:38:32 ~ IP : 82.153.93.229 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:40:34 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=104
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:50:55 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=88
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 11:52:56 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:11:01 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=148
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:18:29 ~ IP : 103.246.38.196 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:18:29 ~ IP : 61.245.172.3 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:40:41 ~ IP : 82.135.124.66 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:44:24 ~ IP : 82.145.46.102 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:44:48 ~ IP : 82.145.46.102 ----------
+REQUEST URI : /?route=information/about
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:44:53 ~ IP : 82.145.46.102 ----------
+REQUEST URI : /?route=information/customerservice
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:47:04 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60_76&amp;product_id=145
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:51:08 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=account/login
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:55:24 ~ IP : 183.216.170.95 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 12:58:52 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=72&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:01:18 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=78
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:02:29 ~ IP : 220.181.141.66 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:02:46 ~ IP : 220.181.132.196 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:13:37 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61index.php?route=product/category&amp;path=61
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:16:15 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=101
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:17:30 ~ IP : 178.154.243.117 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=71
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:26:40 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=115
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:27:29 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=122
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:38:43 ~ IP : 66.249.74.146 ----------
+REQUEST URI : /?route=information/media/
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:38:56 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:39:05 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /?route=information/media
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:39:17 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:39:19 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:39:57 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /?route=information/media
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:40:00 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:40:26 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:46:56 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:47:05 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:47:07 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:47:15 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:47:20 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=51
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:47:25 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:47:29 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:47:36 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=79
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:47:41 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:50:28 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59_68&amp;product_id=53
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:51:59 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=145
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:57:03 ~ IP : 183.216.170.95 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:57:53 ~ IP : 183.216.170.95 ----------
+REQUEST URI : /?route=information/media
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:58:01 ~ IP : 183.216.170.95 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:58:23 ~ IP : 183.216.170.95 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 13:58:47 ~ IP : 183.216.170.95 ----------
+REQUEST URI : /index.php?route=information/promotions
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 14:01:11 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61_72
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 14:09:36 ~ IP : 178.154.243.117 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=131
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 14:21:59 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=107
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 14:26:13 ~ IP : 66.206.55.149 ----------
+REQUEST URI : 
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 14:41:37 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=account/forgotten
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 14:47:57 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=53&amp;filter=
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 14:48:26 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=74&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:01:42 ~ IP : 178.154.243.117 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=113
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:02:33 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:04:25 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:09:23 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=information/contact
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:10:00 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=113
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:19:07 ~ IP : 113.210.130.247 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:24:57 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=127&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:33:24 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=3
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:47:01 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59_67&amp;product_id=77
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:53:47 ~ IP : 178.154.243.117 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=73
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 15:58:55 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=134&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:05:18 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=6
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:19:33 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:20:06 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=133
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:20:49 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:20:58 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=104
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:21:29 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=106&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:21:46 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /?route=information/promotions
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:22:16 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /?route=information/media
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:27:10 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=6
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:28:07 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=5
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:28:53 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /?route=information/media/
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:29:00 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=3
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:29:28 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:29:36 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:29:49 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:29:56 ~ IP : 46.253.93.176 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=53
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:37:34 ~ IP : 37.106.181.17 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:39:12 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61_71
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:40:04 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=103&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:45:52 ~ IP : 178.154.243.117 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=137
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:46:36 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59&amp;product_id=77&amp;filter=
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:52:38 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=60&amp;product_id=117
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:53:28 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=4
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:54:53 ~ IP : 85.17.194.223 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:56:59 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=84
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:58:17 ~ IP : 175.138.12.25 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 16:58:39 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=79&amp;product_id=57
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:06:19 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:06:30 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:07:04 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:07:22 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60&amp;page=3
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:07:34 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=79
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:07:47 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:08:11 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:08:19 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:08:35 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /?route=information/promotions
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:08:49 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:09:27 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59&amp;page=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:10:17 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59_68
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:10:22 ~ IP : 115.133.86.156 ----------
+REQUEST URI : /?route=information/customerservice
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:14:20 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=information/news&amp;news_id=2
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:22:14 ~ IP : 199.59.148.209 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:27:06 ~ IP : 178.154.243.117 ----------
+REQUEST URI : /index.php?route=product/search&amp;tag=hat
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:39:27 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=108&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:46:30 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /index.php?route=account/register
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:47:23 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=59_67&amp;product_id=77&amp;filter=
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 17:47:40 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59_68
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 18:14:00 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60_77
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 18:14:02 ~ IP : 65.55.213.69 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 18:17:26 ~ IP : 157.55.35.89 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 18:36:50 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61_72
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 18:56:06 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=119
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 18:57:46 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=120
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 18:58:19 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=53
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 18:59:03 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60_74
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 18:59:16 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61_71
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 19:18:27 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 19:19:43 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=145&amp;path=60
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 19:26:00 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61_73
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 19:42:59 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=61&amp;page=1
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 19:53:06 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=59_67
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 20:09:47 ~ IP : 110.5.105.186 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 20:12:14 ~ IP : 110.5.105.186 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 20:13:53 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60_76
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 20:33:51 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60_78
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 20:43:02 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=150
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 20:55:39 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60_75
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 20:57:47 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 21:19:12 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=152
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 21:23:07 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=79
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 21:23:29 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=61&amp;product_id=140
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 21:26:24 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 21:43:09 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=60&amp;page=3
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 21:44:37 ~ IP : 118.91.130.155 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 21:45:33 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=148
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 21:47:34 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=67
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 22:12:19 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=72
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 22:31:58 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=145
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 22:37:28 ~ IP : 68.180.224.227 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=58&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 22:42:24 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=65&amp;product_id=78
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 22:49:24 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=136
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 23:17:24 ~ IP : 66.249.74.3 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=65
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 23:22:27 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=122
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-02-07 23:48:49 ~ IP : 66.249.77.142 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=151
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+----------------------------------------------------------------------
+
+

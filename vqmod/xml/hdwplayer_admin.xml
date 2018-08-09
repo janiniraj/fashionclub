@@ -1,0 +1,397 @@
+<modification>
+    <id>HDW Player</id>
+	<version>1.0.0</version>
+	<vqmver>2.2.1</vqmver>
+	<author></author>
+	<decription><![CDATA[
+		/*
+			xx
+
+		*/
+		]]>
+	</decription>
+        <file name="admin/view/template/common/header.tpl" error="log">
+		<operation error="log">
+			<search position="after"><![CDATA[
+				<li><a href="<?php echo $information; ?>"><?php echo $text_information; ?></a></li>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<li><a href="<?php echo $hdwplayer_tab; ?>"><?php echo $text_hdwplayer_tab; ?></a></li>
+				]]>
+			</add>
+		</operation>
+	</file>
+
+	<file name="admin/controller/common/header.php" error="log">
+		<operation error="log">
+			<search position="after"><![CDATA[
+				$this->data['text_information'] = $this->language->get('text_information');
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$this->data['text_hdwplayer_tab'] = $this->language->get('text_hdwplayer_tab');
+				]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after"><![CDATA[
+				$this->data['information'] = $this->url->link('catalog/information', 'token=' . $this->session->data['token'], 'SSL');
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$this->data['hdwplayer_tab'] = $this->url->link('catalog/hdwplayer', 'token=' . $this->session->data['token'], 'SSL');
+				]]>
+			</add>
+		</operation>
+	</file>
+
+ 	<!-- If you do not have the english language installed change the line below to -->
+	<!-- <file name="admin/language/english/english.php" error="skip"> -->
+  <file name="admin/language/english/english.php" error="log">
+
+		<operation error="log">
+			<search position="after"><![CDATA[
+				$_['tab_attribute']
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$_['tab_hdwplayer']					= 'Video';
+				]]>
+			</add>
+		</operation>
+
+
+	</file>
+
+  <!-- If you do not have the english language installed change the line below to -->
+	<!-- <file name="admin/language/english/common/header.php" error="skip"> -->
+	<file name="admin/language/english/common/header.php" error="log">
+
+            <operation error="log">
+			<search position="after"><![CDATA[
+				$_['text_information']
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$_['text_hdwplayer_tab']          			 = 'HDW player';
+				]]>
+			</add>
+		</operation>
+
+	</file>
+        <file name="admin/controller/catalog/product.php" error="log">
+
+		<operation error="log">
+			<search position="after"><![CDATA[
+				$this->data['tab_attribute'] = $this->language->get('tab_attribute');
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$this->data['tab_hdwplayer'] = $this->language->get('tab_hdwplayer');
+                                $this->data['entry_video_title'] = $this->language->get('entry_video_title');
+                            $this->data['entry_video_position'] = $this->language->get('entry_video_position');
+                            $this->data['entry_video_status'] = $this->language->get('entry_video_status');
+                            $this->data['entry_video_sort_order'] = $this->language->get('entry_video_sort_order');
+                            $this->data['text_top'] = $this->language->get('text_top');
+                            $this->data['text_left'] = $this->language->get('text_left');
+                            $this->data['text_tab'] = $this->language->get('text_tab');
+                            $this->data['text_remove'] = $this->language->get('text_remove');
+                            $this->data['text_add_video'] = $this->language->get('text_add_video');
+                            $this->data['text_video_enabled'] = $this->language->get('text_video_enabled');
+                            $this->data['text_video_disabled'] = $this->language->get('text_video_disabled');
+                            $this->data['entry_player_size']  = $this->language->get('entry_player_size');
+				]]>
+			</add>
+		</operation>
+                <!-- Add Video Tab to getForm function -->
+                <operation error="log">
+			<search position="before" ><![CDATA[
+				$this->data['product_options'] = array();
+				]]>
+			</search>
+			<add><![CDATA[
+				if (isset($this->request->post['product_video'])) {
+					$this->data['product_videos'] = $this->request->post['product_video'];
+				} elseif (isset($this->request->get['product_id'])) {
+					$this->data['product_videos'] = $this->model_catalog_product->getProductVideos($this->request->get['product_id']);
+				} else {
+					$this->data['product_videos'] = array();
+				}
+				
+				]]>
+			</add>
+		</operation>
+	</file>
+        <file name="admin/language/english/catalog/product.php" error="log">
+		<operation error="log">
+			<search position="after"><![CDATA[
+				$_['entry_name']             
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+								$_['entry_video_title']				= 'Video Title';
+								$_['entry_player_size']				= 'Player Size (W X H)';
+                                $_['entry_video_position']			= 'Position';
+                                $_['entry_video_status']			= 'Status';
+                                $_['entry_video_sort_order']			= 'Sort Order';
+                                $_['text_top']					= 'Top Column';
+                                $_['text_left']					= 'Left Column';
+                                $_['text_tab']					= 'Tab Column';
+                                $_['text_video_enabled']				= 'Enabled';
+                                $_['text_video_disabled']				= 'Disabled';
+                                $_['text_remove']				= 'Remove';
+                                $_['text_add_video']				= 'Add Video';
+                            ]]>
+			</add>
+		</operation>
+	</file>
+        <file name="admin/view/template/catalog/product_form.tpl" error="log">
+
+		<!-- Add a 'Row' just in case we end up with two rows of tabs, this make it display better -->
+
+		<operation error="log">
+			<search position="replace"><![CDATA[
+				<a href="#tab-design"><?php echo $tab_design; ?></a>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<a href="#tab-design"><?php echo $tab_design; ?></a>
+				<a href="#tab-hdwplayer"><?php echo $tab_hdwplayer; ?></a>
+				]]>
+			</add>
+		</operation>
+                <operation error="log">
+			<search position="before"><![CDATA[
+				<div id="tab-reward">
+				]]>
+			</search>
+      <add trim="true"><![CDATA[
+				<div id="tab-hdwplayer">
+        <table id="video" class="list">
+          <thead>
+            <tr>
+              <td class="left"><?php echo $entry_video_title; ?></td>
+              <td class="left"><?php echo $entry_player_size; ?></td>
+            <td class="left"><?php echo $entry_video_position; ?></td>
+            <td class="left"><?php echo $entry_video_status; ?></td>
+            <td class="right"><?php echo $entry_video_sort_order; ?></td>
+              <td></td>
+            </tr>
+          </thead>
+          <?php $video_row = 0; ?>
+		  <?php if(isset($product_videos)) { ?>
+          <?php foreach($product_videos as $product_video) { ?>
+          <tbody id="video-row<?php echo $video_row; ?>">
+            <tr>
+              <td class="left"><?php echo $product_video['title']; ?><input type="hidden" name="product_video[<?php echo $video_row; ?>][video_id]" value="<?php echo $product_video['video_id']; ?>" /></td>
+              <td class="left"><input type="text" name="product_video[<?php echo $video_row; ?>][width]" value="<?php echo $product_video['width']; ?>" size="5"/>&nbsp;<input type="text" name="product_video[<?php echo $video_row; ?>][height]" value="<?php echo $product_video['height']; ?>" size="5"/></td>
+              <td class="left"><select name="product_video[<?php echo $video_row; ?>][position]">
+                    <?php if($product_video['position'] == "top") { ?>
+                    <option value="top" selected="selected"><?php echo $text_top; ?></option>
+                    <?php } else { ?>
+                    <option value="top"><?php echo $text_top; ?></option>
+                    <?php } ?>
+                    <?php if($product_video['position'] == "left") { ?>
+                    <option value="left"  selected="selected"><?php echo $text_left; ?></option>
+                    <?php } else { ?>
+                    <option value="left"><?php echo $text_left; ?></option>
+                    <?php } ?>
+                    <?php if($product_video['position'] == "tab") { ?>
+                    <option value="tab"  selected="selected"><?php echo $text_tab; ?></option>
+                    <?php } else { ?>
+                    <option value="tab"><?php echo $text_tab; ?></option>
+                    <?php } ?>
+                </select></td>
+                <td class="left"><select name="product_video[<?php echo $video_row; ?>][status]">
+                    <?php if($product_video['status'] == "1") { ?>
+                    <option value="1" selected="selected"><?php echo $text_video_enabled; ?></option>
+                    <option value="0"><?php echo $text_video_disabled; ?></option>
+                    <?php } elseif ($product_video['status'] == "0") { ?>
+                    <option value="1"><?php echo $text_video_enabled; ?></option>
+                    <option value="0" selected="selected"><?php echo $text_video_disabled; ?></option>
+                    <?php } ?>
+                </select></td>
+              <td class="right"><input type="text" name="product_video[<?php echo $video_row; ?>][sort_order]" value="<?php echo $product_video['sort_order'] ?>" size="3" /></td>
+              <td class="left"><a onclick="$('#video-row<?php echo $video_row; ?>').remove();" class="button"><span><?php echo $text_remove; ?></span></a></td>
+            </tr>
+          </tbody>
+          <?php $video_row++; ?>
+          <?php } } ?>
+          <tfoot>
+            <tr>
+              <td class="right" colspan="2"><h3 style="color: blue;">Add Video (Enter the video title)</h3></td>
+              <td colspan="3"><input name="videoadd" type="text" size="30"/></td>
+            </tr>
+          </tfoot>
+        </table>
+          </div>
+          ]]>
+			</add>
+		</operation>
+                <operation error="log">
+			<search position="before" offset="1"><![CDATA[
+				var option_row = <?php echo $option_row; ?>;
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<script type="text/javascript"><!--
+				var video_row = <?php echo $video_row; ?>;
+
+				$('input[name=\'videoadd\']').autocomplete({
+					delay: 500,
+					source: function(request, response) {
+						$.ajax({
+							url: 'index.php?route=catalog/hdwplayer/autocomplete&token=<?php echo $token; ?>&filter_name=' +  encodeURIComponent(request.term),
+							dataType: 'json',
+							success: function(json) {
+								response($.map(json, function(item) {
+									return {
+										label: item.title,
+										value: item.video_id
+									}
+								}));
+							}
+						});
+					},
+					select: function(event, ui) {
+						html = '<tbody id="video-row' + video_row + '">';
+                            html += '<tr>';
+                            html += '<td class="left">' + ui.item.label + '<input type="hidden" name="product_video[' + video_row + '][video_id]" value="' + ui.item.value + '" /></td>';
+                            html += '<td class="left"><input type="text" name="product_video[' + video_row + '][width]" value="176" size="5"/>&nbsp;<input type="text" name="product_video[' + video_row + '][height]" value="150" size="5"/></td>';
+                            html += '<td class="left"><select name="product_video[' + video_row + '][position]">';
+                            html += '<option value="top" selected="selected"><?php echo $text_top; ?></option>';
+                            html += '<option value="left"><?php echo $text_left; ?></option>';
+                            html += '<option value="tab"><?php echo $text_tab; ?></option>';
+                            html += '</select></td>';
+                            html += '<td class="left"><select name="product_video[' + video_row + '][status]">';
+                            html += '<option value="1" selected="selected"><?php echo $text_video_enabled; ?></option>';
+                            html += '<option value="0"><?php echo $text_video_disabled; ?></option>';
+                            html += '</select></td>';
+                            html += '<td class="right"><input type="text" name="product_video[' + video_row + '][sort_order]" value="" size="3" /></td>';
+                            html += '<td class="left"><a onclick="$(\'#video-row' + video_row + '\').remove();" class="button"><span><?php echo $text_remove; ?></span></a></td>';
+                            html += '</tr>';
+                            html += '</tbody>';
+
+						video_row++;
+
+						$('#video tfoot').before(html);
+
+						return false;
+					},
+					focus: function(event, ui) {
+							return false;
+					}
+				});
+
+				//--></script>
+				]]>
+			</add>
+		</operation>
+                
+
+        </file>
+        
+        
+        
+        
+        
+        <file name="admin/model/catalog/product.php" error="log">
+
+		<!-- Add Extra Tabs to addProduct function -->
+		<operation error="log">
+			<search position="before" index="1"><![CDATA[
+				if (isset($data['product_option'])) {
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				if(isset($data['product_video'])){
+                                    foreach($data['product_video'] as $product_video){
+                                        if($product_video['video_id']){
+                                            $this->db->query("DELETE FROM " . DB_PREFIX . "product_video WHERE product_id = '" . (int)$product_id . "' AND video_id = '" . (int)$product_video['video_id'] . "'");
+                                            $this->db->query("INSERT INTO " . DB_PREFIX . "product_video SET product_id = '" . (int)$product_id . "', video_id = '" . (int)$product_video['video_id'] . "', width = '" . (int)$product_video['width'] . "', height = '" .(int)$product_video['height'] . "', status = '" . $product_video['status'] . "', position = '" .  $product_video['position'] . "', sort_order = '" . $product_video['sort_order'] . "'");
+                                        }
+                                    }
+                                }
+				]]>
+			</add>
+		</operation>
+
+                    <!-- Add Extra Tabs to editProduct function -->
+                    <operation error="log">
+			<search position="before" index="1"><![CDATA[
+				$this->db->query("DELETE FROM " . DB_PREFIX . "product_option WHERE product_id = '" . (int)$product_id . "'");
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+                            $this->db->query("DELETE FROM " . DB_PREFIX . "product_video WHERE product_id = '" . (int)$product_id . "'");
+				if(isset($data['product_video'])){
+                                    foreach($data['product_video'] as $product_video){
+                                        if($product_video['video_id']){
+                                            $this->db->query("DELETE FROM " . DB_PREFIX . "product_video WHERE product_id = '" . (int)$product_id . "' AND video_id = '" . (int)$product_video['video_id'] . "'");
+                                            $this->db->query("INSERT INTO " . DB_PREFIX . "product_video SET product_id = '" . (int)$product_id . "', video_id = '" . (int)$product_video['video_id'] . "', width = '" . (int)$product_video['width'] . "', height = '" .(int)$product_video['height'] . "', status = '" . $product_video['status'] . "', position = '" .  $product_video['position'] . "', sort_order = '" . $product_video['sort_order'] . "'");
+                                        }
+                                    }
+                                }
+				]]>
+			</add>
+		</operation>
+
+		<!-- Add Video Tab to copyProduct Function -->
+                <operation error="log">
+			<search position="after"><![CDATA[
+				$data = array_merge($data, array('product_attribute' => $this->getProductAttributes($product_id)));
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$data = array_merge($data, array('product_video' => $this->getProductVideos($product_id)));
+				]]>
+			</add>
+		</operation>
+
+		<!-- Add Delete Videos Data to deleteProduct function -->
+    <operation error="log">
+			<search position="after" offset="1"><![CDATA[
+				public function deleteProduct($product_id) {
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+                            $this->db->query("DELETE FROM " . DB_PREFIX . "product_video WHERE product_id = '" . (int)$product_id . "'");
+				]]>
+			</add>
+		</operation>
+
+		<!-- Add Function getProductVideos to get Tab Data -->
+		<operation error="log">
+			<search position="before"><![CDATA[
+				public function getTotalProductsByLayoutId($layout_id) {
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+
+				public function getProductVideos($product_id){
+                                  $query = $this->db->query("SELECT pv.position, pv.width, pv.height, pv.status, pv.sort_order, v.video_id, v.title FROM " . DB_PREFIX . "product_video pv LEFT JOIN " . DB_PREFIX . "hdwplayer_videos v ON (pv.video_id = v.video_id) WHERE pv.product_id = '" . (int)$product_id . "' AND v.publish = 1");
+                                  
+                                  return $query->rows;
+                                }
+
+                             ]]>
+			</add>
+                </operation>
+                 <!-- Add Function getTotalProductsByVideoId -->
+		<operation error="log">
+			<search position="before"><![CDATA[
+				public function getTotalProductsByOptionId($option_id) {
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				public function getTotalProductsByVideoId($video_id) {
+					$query = $this->db->query("SELECT COUNT(DISTINCT product_id) AS total FROM " . DB_PREFIX . "product_video WHERE video_id = '" . (int)$video_id . "'");
+
+					return $query->row['total'];
+				}
+				]]>
+			</add>
+		</operation>
+	</file>
+</modification>

@@ -1,0 +1,299 @@
+<modification>
+
+<id>Payment Notification Form for Bank Transfer</id>
+<version>1.2</version>
+<vqmver>2.4.1</vqmver>
+<author>opencartmy@gmail.com</author>
+
+<file name="catalog/view/theme/*/template/information/payment_notification.tpl">
+<operation>
+<search position="after">
+<![CDATA[
+<option value="0"><?php echo $entry_pleasechoose; ?></option>
+]]>
+</search>
+<add>
+<![CDATA[
+<option value="Alliance Bank"><?php echo "Alliance Bank"; ?></option>
+<option value="AmBank"><?php echo "AmBank"; ?></option>
+<option value="Bank Islam"><?php echo "Bank Islam"; ?></option>
+<option value="Bank Muamalat"><?php echo "Bank Muamalat"; ?></option>
+<option value="Bank Rakyat"><?php echo "Bank Rakyat"; ?></option>
+<option value="CIMB Bank"><?php echo "CIMB Bank"; ?></option>
+<option value="Hong Leong Bank"><?php echo "Hong Leong Bank"; ?></option>
+<option value="HSBC"><?php echo "HSBC"; ?></option>
+<option value="Maybank"><?php echo "Maybank"; ?></option>
+<option value="Maybank2u Pay"><?php echo "Maybank2u Pay"; ?></option>
+<option value="Public Bank"><?php echo "Public Bank"; ?></option>
+<option value="RHB Bank"><?php echo "RHB Bank"; ?></option>
+]]>
+</add>
+</operation>       
+</file>
+
+
+<file name="catalog/language/english/common/footer.php">
+<operation>
+<search position="before">
+<![CDATA[
+?>
+]]>
+</search>
+<add>
+<![CDATA[
+$_['text_paymentnotification']      = 'Payment Notification Form';
+]]>
+</add>
+</operation>       
+</file>
+
+<file name="catalog/language/malay/common/footer.php">
+<operation>
+<search position="before">
+<![CDATA[
+?>
+]]>
+</search>
+<add>
+<![CDATA[
+$_['text_paymentnotification']      = 'Borang Pengesahan Bayaran';
+]]>
+</add>
+</operation>       
+</file>
+
+<file name="catalog/controller/common/footer.php">
+<operation>
+<search position="after">
+<![CDATA[
+$this->data['text_contact'] = $this->language->get('text_contact');
+]]>
+</search>
+<add>
+<![CDATA[
+$this->data['text_paymentnotification'] = $this->language->get('text_paymentnotification');
+]]>
+</add>
+</operation>       
+</file>
+
+
+<file name="catalog/view/theme/*/template/common/footer.tpl">
+<operation>
+<search position="after">
+<![CDATA[
+<li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+]]>
+</search>
+<add>
+<![CDATA[
+<li><a href="index.php?route=information/payment_notification"><?php echo $text_paymentnotification; ?></a></li>
+]]>
+</add>
+</operation>       
+</file>
+
+
+<file name="catalog/language/english/module/information.php">
+<operation>
+<search position="before">
+<![CDATA[
+?>
+]]>
+</search>
+<add>
+<![CDATA[
+$_['text_paymentnotification']      = 'Payment Notification Form';
+]]>
+</add>
+</operation>       
+</file>
+
+<file name="catalog/language/malay/module/information.php">
+<operation>
+<search position="before">
+<![CDATA[
+?>
+]]>
+</search>
+<add>
+<![CDATA[
+$_['text_paymentnotification']      = 'Borang Pengesahan Bayaran';
+]]>
+</add>
+</operation>       
+</file>
+
+
+<file name="catalog/controller/module/information.php">
+<operation>
+<search position="after">
+<![CDATA[
+$this->data['text_contact'] = $this->language->get('text_contact');
+]]>
+</search>
+<add>
+<![CDATA[
+$this->data['text_paymentnotification'] = $this->language->get('text_paymentnotification');
+]]>
+</add>
+</operation> 
+<operation>
+<search position="after">
+<![CDATA[
+$this->data['contact'] = $this->url->link('information/contact');
+]]>
+</search>
+<add>
+<![CDATA[
+$this->data['payment_notification'] = $this->url->link('information/payment_notification');
+]]>
+</add>
+</operation>       
+</file>
+
+
+<file name="catalog/view/theme/*/template/module/information.tpl">
+<operation>
+<search position="after">
+<![CDATA[
+<li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+]]>
+</search>
+<add>
+<![CDATA[
+<li><a href="<?php echo $payment_notification; ?>"><?php echo $text_paymentnotification; ?></a></li>
+]]>
+</add>
+</operation>       
+</file>
+
+
+<file name="catalog/language/english/checkout/success.php">
+<operation>
+<search position="before">
+<![CDATA[
+?>
+]]>
+</search>
+<add>
+<![CDATA[
+$_['text_gotoform']      = '<p>Once payment has been made, please go to <b><a href="%s">Payment Notification Form</a></b> to send us your payment details.</p>';
+]]>
+</add>
+</operation>       
+</file>
+
+<file name="catalog/language/malay/checkout/success.php">
+<operation>
+<search position="before">
+<![CDATA[
+?>
+]]>
+</search>
+<add>
+<![CDATA[
+$_['text_gotoform']      = '<p>Jika bayaran telah dibuat, sila ke <b><a href="%s">Borang Pengesahan Bayaran</a></b> untuk hantar maklumat pembayaran anda kepada kami.</p>';
+]]>
+</add>
+</operation>       
+</file>
+
+
+<file name="catalog/controller/checkout/success.php">
+<operation>
+<search position="replace">
+<![CDATA[
+$this->data['text_message'] = sprintf($this->language->get('text_customer'), $this->url->link('account/account', '', 'SSL'), $this->url->link('account/order', '', 'SSL'), $this->url->link('account/download', '', 'SSL'), $this->url->link('information/contact'));
+]]>
+</search>
+<add>
+<![CDATA[
+$this->data['text_message'] = sprintf($this->language->get('text_customer'), $this->url->link('account/account', '', 'SSL'), $this->url->link('account/order', '', 'SSL'), $this->url->link('account/download', '', 'SSL'), $this->url->link('information/contact')).sprintf($this->language->get('text_gotoform'), $this->url->link('information/payment_notification'));
+]]>
+</add>
+</operation> 
+
+<operation>
+<search position="replace">
+<![CDATA[
+$this->data['text_message'] = sprintf($this->language->get('text_guest'), $this->url->link('information/contact'));
+]]>
+</search>
+<add>
+<![CDATA[
+$this->data['text_message'] = sprintf($this->language->get('text_guest'), $this->url->link('information/contact')).sprintf($this->language->get('text_gotoform'), $this->url->link('information/payment_notification'));
+]]>
+</add>
+</operation>       
+</file>
+
+
+<file name="catalog/language/english/mail/order.php">
+<operation>
+<search position="before">
+<![CDATA[
+?>
+]]>
+</search>
+<add>
+<![CDATA[
+$_['text_new_emaillinktoform']      = 'Once payment has been made, please click on the link below to send us your payment details:<br />';
+]]>
+</add>
+</operation>       
+</file>
+
+<file name="catalog/language/malay/mail/order.php">
+<operation>
+<search position="before">
+<![CDATA[
+?>
+]]>
+</search>
+<add>
+<![CDATA[
+$_['text_new_emaillinktoform']      = 'Jika bayaran telah dibuat, sila klik pautan di bawah ini untuk hantar maklumat pembayaran anda kepada kami:<br />';
+]]>
+</add>
+</operation>       
+</file>
+
+
+<file name="catalog/model/checkout/order.php">
+<operation>
+<search position="after">
+<![CDATA[
+$template->data['text_instruction'] = $language->get('text_new_instruction');
+]]>
+</search>
+<add>
+<![CDATA[
+$template->data['text_emaillinktoform'] = $language->get('text_new_emaillinktoform');
+$template->data['emaillinktoform'] = $order_info['store_url'] . 'index.php?route=information/payment_notification' . "\n\n";
+]]>
+</add>
+</operation>       
+</file>
+
+
+
+<file name="catalog/view/theme/*/template/mail/order.tpl">
+<operation>
+<search position="after">
+<![CDATA[
+<?php if ($customer_id) { ?>
+]]>
+</search>
+<add>
+<![CDATA[
+<p style="margin-top: 0px; margin-bottom: 20px;">
+<?php echo $text_emaillinktoform; ?>
+<?php echo $emaillinktoform; ?>
+</p>
+]]>
+</add>
+</operation>       
+</file>
+
+</modification>

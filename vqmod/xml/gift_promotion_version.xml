@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Gift Promotion Versions 1.5.2 and up</id>
+	<version>1.3</version>
+	<vqmver>2.0</vqmver>
+	<author>Opcrat</author>
+	<file name="catalog/view/theme/default/template/module/cart.tpl">
+		<operation>
+			<search position="replace"><![CDATA[<?php echo $product['total']; ?>]]></search>
+			<add><![CDATA[
+			<?php 
+				echo $product['total'];
+					if($this->config->get('gift_promotion_cart_display') == 1) {
+					if(isset($this->session->data['gift_promotion_product'])) {
+						if(isset($this->session->data['gift_promotion_product'][$product['key']])) {
+							$gp_message = $this->session->data['gift_promotion_product'][$product['key']];
+						?>
+						<br/><span style="color:red;">
+						<?php foreach($gp_message as $gp_promotional_message) { ?>
+							<?php echo $gp_promotional_message['name']. " " . $gp_promotional_message['product_price'] ."<br/>"; ?>
+						<?php } ?>
+						<span>
+			 <?php } } } ?>
+          	]]></add>
+		</operation>
+	</file>
+</modification>	
+
+
+
+			

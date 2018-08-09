@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stocks>
+<item>
+<code>100100000</code>
+<quantity>31</quantity>
+</item>
+
+<item>
+<code>100100001</code>
+<quantity>89</quantity>
+</item>
+
+<item>
+<code>100100010</code>
+<quantity>90</quantity>
+</item>
+
+<item>
+<code>100100100</code>
+<quantity>84</quantity>
+</item>
+
+<item>
+<code>100100101</code>
+<quantity>104</quantity>
+</item>
+</stocks>

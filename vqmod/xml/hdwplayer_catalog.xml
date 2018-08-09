@@ -1,0 +1,1448 @@
+<modification>
+	<id>HDW Player</id>
+	<version>1.0.0</version>
+	<vqmver>2.2.1</vqmver>
+	<author></author>
+	<decription><![CDATA[]]></decription>
+	<file name="catalog/view/theme/*/template/product/category.tpl" error="log">
+			<operation error="log">
+					<search position="after" ><![CDATA[
+						 <?php if ($products) { ?>
+						]]>
+					</search>
+					<add trim="true"><![CDATA[
+					<?php if(isset($product_video)) { ?>
+						<div id="blanket" style="display:none;"></div>
+						<?php } ?>
+		        ]]>
+					</add>
+				</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				 <div class="product-list
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php $video = 0; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="replace" ><![CDATA[
+				<div class="description"><?php echo $product['description']; ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<div class="description"><?php echo $product['description']; ?>
+				<?php if($product_video[$video]['id'] != '') { ?>
+ 						<div><a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',<?php echo $player_size['width']; ?>,<?php echo $player_size['height']; ?>)" ><img src="image/hdwplayer/dis_video.jpg" title="<?php echo $product['name']; ?> Videos"/></a></div>
+ 					
+						<div  id="playerDiv<?php echo $product_video[$video]['id']; ?>" style="display:none;">
+           					<a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',1,1)" class="close" title="close">X</a>
+           					<?php echo $product_video[$video]['embed']; ?>
+           				</div>
+          		<?php } ?>
+                <?php $video++; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				$('.product-list').attr('class', 'product-grid');
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			var video=0;
+			var productVideo = <?php echo json_encode($product_video); ?>;
+			var playersize = <?php echo json_encode($player_size); ?>;
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before" index="2" ><![CDATA[
+				var rating = $(element).find('.rating').html();
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			if(productVideo[video]["id"] != '')
+						{   
+							html += '<div><a onclick="popup(\'playerDivG'+productVideo[video]["id"]+'\','+playersize["width"]+','+playersize["height"]+',\'blanket'+productVideo[video]["id"]+'\')" ><img src="image/hdwplayer/dis_video.jpg" /></a></div>';
+ 							
+							html += '<div  id="playerDivG'+productVideo[video]["id"]+'" style="display:none;">';
+                            html += '<a onclick="popup(\'playerDivG'+productVideo[video]["id"]+'\',1,1,\'blanket'+productVideo[video]["id"]+'\')" class="close" title="close">X</a>';
+                            html += productVideo[video]["embed"];
+                            html += '</div>';
+						}
+                video++;
+						
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before" ><![CDATA[
+				<?php echo $footer; ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<?php if(isset($product_video)) { ?>
+				<?php foreach($product_video as $product) { ?>
+				<?php if($product['id'] != '') { ?>
+					<style type="text/css">
+								#playerDiv<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						#playerDivG<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						#playerDivG<?php echo $product['id']; ?> a {
+							position:absolute;
+							top:5px; right:5px
+						}
+						#playerDivG<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDivG<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+						
+						#playerDiv<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDiv<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+						 
+								</style>
+								<?php } ?>
+					<?php } } ?>
+							<style type="text/css">
+						    #blanket {
+						   background-color:#111;
+						   opacity: 0.40;
+						   
+						   position:absolute;
+						   z-index: 9001;
+						   top:0px;
+						   left:0px;
+						   width:100%;
+						}
+						a.close {
+						opacity: 0.5;
+						text-decoration:none;
+						font-weight:bold;
+						font-size: 15px;
+						font-family: "Verdana";
+						color:#fff;
+						}
+						a.close:hover {
+						opacity: 1;
+						color:#fff;
+						}
+						</style>
+						<script type="text/javascript" src="catalog/view/javascript/videopopup.js"></script>
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/controller/product/category.php" error="log">
+		<operation error="log">
+			<search position="before"><![CDATA[
+				$this->data['products'][] = array(
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$video = $this->model_catalog_product->getProductVideos($result['product_id']);
+                                if($video){
+                                    $playlist = $this->url->link('module/hdwplayer/getPlaylist%26product_id='.$result['product_id']);
+                                    $this->data['product_video'][]=array(
+                                        'embed' => $this->model_catalog_hdwplayer->getPlayer($playlist,$skin),
+                                        'id' => $result['product_id']
+                                    );
+                                }
+                                else {
+                                    $this->data['product_video'][]=array(
+                                    	'embed' => '',
+                                        'id' => ''
+                                    );
+                                }
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="after"><![CDATA[
+				$results = $this->model_catalog_product->getProducts($data);
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						$this->load->model('catalog/hdwplayer');
+                        $skin = $this->url->link('module/hdwplayer/getSkin');
+                        $this->data['player_size'] = $this->model_catalog_product->getPlayerSize();
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/view/theme/*/template/module/featured.tpl" error="log">
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				 <div class="box-product
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php $video = 0; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				<div class="price">
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php if($product_video[$video]['id'] != '') { ?>
+ 						<div ><a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',<?php echo $player_size['width']; ?>,<?php echo $player_size['height']; ?>)" ><img src="image/hdwplayer/dis_video.jpg" title="<?php echo $product['name']; ?> Videos"/></a></div>
+ 						<div id="blanket" style="display:none;"></div>
+						<div  id="playerDiv<?php echo $product_video[$video]['id']; ?>" style="display:none;">
+           					<a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',1,1)" class="close" title="close">X</a>
+           					<?php echo $product_video[$video]['embed']; ?>
+           				</div>
+          		<?php } ?>
+                <?php $video++; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="bottom"></search>
+			<add trim="true"><![CDATA[
+			<?php if(isset($product_video)) { ?>
+				<?php foreach($product_video as $product) { ?>
+				<?php if($product['id'] != '') { ?>
+					<style type="text/css">
+								#playerDiv<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						
+						#playerDiv<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDiv<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+								</style>
+								<?php } ?>
+					<?php } } ?>
+							<style type="text/css">
+						    #blanket {
+						   background-color:#111;
+						   opacity: 0.40;
+						   
+						   position:absolute;
+						   z-index: 9001;
+						   top:0px;
+						   left:0px;
+						   width:100%;
+						}
+						a.close {
+						opacity: 0.5;
+						text-decoration:none;
+						font-weight:bold;
+						font-size: 15px;
+						font-family: "Verdana";
+						color:#fff;
+						}
+						a.close:hover {
+						color:#fff;
+						opacity: 1;
+						}
+						 </style>
+						
+					<script type="text/javascript" src="catalog/view/javascript/videopopup.js"></script>
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/controller/module/featured.php" error="log">
+		<operation error="log">
+			<search position="before"><![CDATA[
+				$this->data['products'][] = array(
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+							$video = $this->model_catalog_product->getProductVideos($product_info['product_id']);
+                                if($video){
+                                    $playlist = $this->url->link('module/hdwplayer/getPlaylist%26product_id='.$product_info['product_id']);
+                                    $this->data['product_video'][]=array(
+                                        'embed' => $this->model_catalog_hdwplayer->getPlayer($playlist,$skin),
+                                        'id' => $product_info['product_id']
+                                    );
+                                }
+                                else {
+                                    $this->data['product_video'][]=array(
+                                    	'embed' => '',
+                                        'id' => ''
+                                    );
+                                }
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="after"><![CDATA[
+				$products = array_slice($products, 0, (int)$setting['limit']);
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						$this->load->model('catalog/hdwplayer');
+                        $skin = $this->url->link('module/hdwplayer/getSkin');
+                        $this->data['player_size'] = $this->model_catalog_product->getPlayerSize();
+        ]]>
+			</add>
+		</operation>
+		</file>
+	<file name="catalog/view/theme/*/template/product/product.tpl" error="log">
+		<operation error="log">
+			<search position="after" index="1" offset="2"><![CDATA[
+				<?php if ($products) { ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php if ($product_videos_tab) { ?>
+						<a href="#tab-product-video">Videos</a>
+				<?php } ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before"><![CDATA[
+				<?php if ($tags) { ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php if ($product_videos_tab) { ?>
+					<div id="tab-product-video" class="tab-content">
+						<div  id="playerTab" >
+							<?php echo $product_videos_tab[0]['embed']; ?>
+						</div>
+						<?php foreach ($product_videos_tab as $product_video)  { ?>
+							<div style="float:left;padding:0px;margin:7px 14px 7px 0px;cursor:pointer;" id="<?php echo $product_video['video_id']; ?>"  onclick="playerTab(this.id);">
+								<img title="<?php echo $product_video['title']; ?>" src="image/hdwplayer/dis_play.gif" style="width:29px;height:26px;margin-left:22px;margin-top:24px;opacity:0.5;position:absolute"/>
+								<?php if(!$product_video['thumb_image']) { ?>
+									<img src="image/hdwplayer/dis_noimage.jpg" title="<?php echo $product_video['title']; ?>" alt="<?php echo $product_video['title']; ?>" style="height:74px; width:74px;" border="0" />
+								<?php }else { ?>
+									<img src="<?php echo $product_video['thumb_image']; ?>" title="<?php echo $product_video['title']; ?>" alt="<?php echo $product_video['title']; ?>" style="height:74px; width:74px;" />
+								<?php } ?>
+								<div style="width:74px; margin:2px;"><a id="<?php echo $product_video['video_id']; ?>" style="text-decoration:none;" onclick="playerTab(this.id);"><?php echo $product_video['title']; ?></a></div>
+								<div style="display:none;" id="hid<?php echo $product_video['video_id']; ?>"><?php echo $product_video['embed']; ?></div>
+							</div>
+						<?php } ?>
+						<p style="clear:both;" />
+					</div>
+				<?php } ?>
+				]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after"><![CDATA[
+				<div class="product-info">
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<?php if ($product_videos_top) { ?>
+					<hr style="border-top: 0px solid #ccc;"/>
+					<h2>Related Videos</h2>
+						<div  id="playerTop" style="width:<?php echo $player_size['width']; ?>; height: <?php echo $player_size['height']; ?>">
+							<?php echo $product_videos_top[0]['embed']; ?>
+						</div>
+						<div>
+							<?php foreach ($product_videos_top as $product_video)  { ?>
+								<div style="float:left;padding:0px;margin:7px 14px 7px 0px;cursor:pointer;" id="<?php echo $product_video['video_id']; ?>"  onclick="playerTop(this.id);">
+									<img title="<?php echo $product_video['title']; ?>" src="image/hdwplayer/dis_play.gif" style="width:29px;height:26px;margin-left:22px;margin-top:24px;opacity:0.5;position:absolute"/>
+									<?php if(!$product_video['thumb_image']) { ?>
+										<img src="image/hdwplayer/dis_noimage.jpg" title="<?php echo $product_video['title']; ?>" alt="<?php echo $product_video['title']; ?>" style="height:74px; width:74px;" border="0" />
+									<?php }else { ?>
+										<img src="<?php echo $product_video['thumb_image']; ?>" title="<?php echo $product_video['title']; ?>" alt="<?php echo $product_video['title']; ?>" style="height:74px; width:74px;" />
+									<?php } ?>
+									<div style="width:74px; margin:2px;"><a id="<?php echo $product_video['video_id']; ?>" style="text-decoration:none;" onclick="playerTop(this.id);"><?php echo $product_video['title']; ?></a></div>
+									<div style="display:none;" id="top<?php echo $product_video['video_id']; ?>"><?php echo $product_video['embed']; ?></div>
+								</div>
+							<?php } ?>
+							<p style="clear:both">&nbsp;</p>
+						</div>
+				<?php } ?>
+				]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="replace"><![CDATA[
+				<?php if ($thumb || $images) { ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php if ($thumb || $images || $product_videos_left ) { ?>
+
+				]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before" offset="3"><![CDATA[
+				<div class="description">
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php if ($product_videos_left) { ?>
+					<hr style="border-top: 0px solid #ccc;"/>
+					<h2>Related Videos</h2>
+						<div  id="playerLeft" style="width:<?php echo $player_size['width']; ?>; height: <?php echo $player_size['height']; ?>">
+							<?php echo $product_videos_left[0]['embed']; ?>
+						</div>
+						<div style="width:260px; clear:both; overflow: hidden; ">
+							<?php foreach ($product_videos_left as $product_video)  { ?>
+								<div style="float:left;padding:0px;margin:7px 7px 7px 0px;cursor:pointer;" id="<?php echo $product_video['video_id']; ?>"  onclick="playerLeft(this.id);">
+									<img title="<?php echo $product_video['title']; ?>" src="image/hdwplayer/dis_play.gif" style="width:29px;height:26px;margin-left:22px;margin-top:24px;opacity:0.5;position:absolute"/>
+									<?php if(!$product_video['thumb_image']) { ?>
+										<img src="image/hdwplayer/dis_noimage.jpg" title="<?php echo $product_video['title']; ?>" alt="<?php echo $product_video['title']; ?>" style="height:74px; width:74px;" border="0" />
+									<?php }else { ?>
+										<img src="<?php echo $product_video['thumb_image']; ?>" title="<?php echo $product_video['title']; ?>" alt="<?php echo $product_video['title']; ?>" style="height:74px; width:74px;" />
+									<?php } ?>
+									<div style="display:none;" id="left<?php echo $product_video['video_id']; ?>"><?php echo $product_video['embed']; ?></div>
+								</div>
+							<?php } ?>
+							<p style="clear:both">&nbsp;</p>
+						</div>
+				<?php } ?>
+				]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before"><![CDATA[
+				<?php echo $footer; ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<script type="text/javascript" src="catalog/view/javascript/videopopup.js"></script>
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file name="catalog/controller/product/product.php" error="log">
+
+    <operation error="log">
+			<search position="before"><![CDATA[
+				$results = $this->model_catalog_product->getProductRelated($this->request->get['product_id']);
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+					$this->data['player_size'] =  $this->model_catalog_product->getPlayerSize();
+					$this->data['product_videos_top'] = array();
+					$this->data['product_videos_tab'] = array();
+					$this->data['product_videos_left'] = array();
+						$skin = $this->url->link('module/hdwplayer/getSkin');
+						$this->load->model('catalog/hdwplayer');
+						$product_videos = $this->model_catalog_product->getProductVideos($this->request->get['product_id']);
+						$this->data['productVideos'] = $product_videos;
+							foreach ($product_videos as $product_video) {
+								$playlist = $this->url->link('module/hdwplayer/getPlaylist%26product_id='.$this->request->get['product_id'].'%26video_id='.$product_video['video_id']);
+								$this->data['product_videos_' . $product_video['position']][] = array(
+									'video_id' 	=> $product_video['video_id'],
+									'title'    => $product_video['title'],
+									'height' => $product_video['height'],
+									'width' => $product_video['width'],
+									'video'    => $product_video['video'],
+									'hd_video' => $product_video['hd_video'],
+									'preview_image' => $product_video['preview_image'],
+									'thumb_image' => $product_video['thumb_image'],
+									'embed' => $this->model_catalog_hdwplayer->getPlayer($playlist,$skin,$product_video['width'],$product_video['height']),
+									'playlist' => $playlist
+								);
+							}
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file name="catalog/model/catalog/product.php" error="log">
+		<operation error="log">
+			<search position="bottom" offset="2"></search>
+			<add trim="true"><![CDATA[
+				public function getProductVideos($product_id) {
+
+					$query = $this->db->query("SELECT pv.position, pv.height, pv.width, v.video_id, v.title, v.video, v.hd_video, v.preview_image, v.thumb_image,v.video_type FROM " . DB_PREFIX . "product_video pv LEFT JOIN " . DB_PREFIX . "hdwplayer_videos v ON (pv.video_id = v.video_id) WHERE pv.product_id = '" . (int)$product_id . "' AND v.publish = 1 AND pv.status = 1 ORDER BY pv.sort_order");
+                                  
+                                  return $query->rows;
+				}
+				public function getPlayerSize(){
+					$query = $this->db->query("SELECT width, height FROM " . DB_PREFIX . "hdwplayer_settings WHERE player_id=1");
+					return $query->row;
+				}
+				
+				]]>
+			</add>
+		</operation>
+	</file>
+	<file name="catalog/view/theme/*/template/module/latest.tpl" error="log">
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				 <div class="box-product
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php $video = 0; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				<div class="price">
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php if($product_video[$video]['id'] != '') { ?>
+ 						<div><a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',<?php echo $player_size['width']; ?>,<?php echo $player_size['height']; ?>)" ><img src="image/hdwplayer/dis_video.jpg" title="<?php echo $product['name']; ?> Videos"/></a></div>
+ 						<div id="blanket" style="display:none;"></div>
+						<div  id="playerDiv<?php echo $product_video[$video]['id']; ?>" style="display:none;">
+           					<a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',1,1)" class="close" title="close">X</a>
+           					<?php echo $product_video[$video]['embed']; ?>
+           				</div>
+          		<?php } ?>
+                <?php $video++; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="bottom"></search>
+			<add trim="true"><![CDATA[
+			<?php if(isset($product_video)) { ?>
+				<?php foreach($product_video as $product) { ?>
+				<?php if($product['id'] != '') { ?>
+					<style type="text/css">
+								#playerDiv<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						#playerDiv<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDiv<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+								</style>
+								<?php } ?>
+					<?php } } ?>
+							<style type="text/css">
+						    #blanket {
+						   background-color:#111;
+						   opacity: 0.40;
+						   
+						   position:absolute;
+						   z-index: 9001;
+						   top:0px;
+						   left:0px;
+						   width:100%;
+						}
+						a.close {
+						opacity: 0.5;
+						text-decoration:none;
+						font-weight:bold;
+						font-size: 15px;
+						font-family: "Verdana";
+						color:#fff;
+						}
+						a.close:hover {
+						color:#fff;
+						opacity: 1;
+						}
+						 </style>
+						
+					<script type="text/javascript" src="catalog/view/javascript/videopopup.js"></script>
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/controller/module/latest.php" error="log">
+		<operation error="log">
+			<search position="before"><![CDATA[
+				$this->data['products'][] = array(
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+							$video = $this->model_catalog_product->getProductVideos($result['product_id']);
+                                if($video){
+                                    $playlist = $this->url->link('module/hdwplayer/getPlaylist%26product_id='.$result['product_id']);
+                                    $this->data['product_video'][]=array(
+                                        'embed' => $this->model_catalog_hdwplayer->getPlayer($playlist,$skin),
+                                        'id' => $result['product_id']
+                                    );
+                                }
+                                else {
+                                    $this->data['product_video'][]=array(
+                                    	'embed' => '',
+                                        'id' => ''
+                                    );
+                                }
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="after"><![CDATA[
+				$results = $this->model_catalog_product->getProducts($data);
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						$this->load->model('catalog/hdwplayer');
+                        $skin = $this->url->link('module/hdwplayer/getSkin');
+                        $this->data['player_size'] = $this->model_catalog_product->getPlayerSize();
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/view/theme/*/template/module/special.tpl" error="log">
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				 <div class="box-product
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php $video = 0; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				<div class="price">
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php if($product_video[$video]['id'] != '') { ?>
+ 						<div><a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',<?php echo $player_size['width']; ?>,<?php echo $player_size['height']; ?>)" ><img src="image/hdwplayer/dis_video.jpg" title="<?php echo $product['name']; ?> Videos"/></a></div>
+ 						<div id="blanket" style="display:none;"></div>
+						<div  id="playerDiv<?php echo $product_video[$video]['id']; ?>" style="display:none;">
+           					<a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',1,1)" class="close" title="close">X</a>
+           					<?php echo $product_video[$video]['embed']; ?>
+           				</div>
+          		<?php } ?>
+                <?php $video++; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="bottom"></search>
+			<add trim="true"><![CDATA[
+			<?php if(isset($product_video)) { ?>
+				<?php foreach($product_video as $product) { ?>
+				<?php if($product['id'] != '') { ?>
+					<style type="text/css">
+								#playerDiv<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						
+						#playerDiv<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDiv<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+								</style>
+								<?php } ?>
+					<?php } } ?>
+							<style type="text/css">
+						    #blanket {
+						   background-color:#111;
+						   opacity: 0.40;
+						   
+						   position:absolute;
+						   z-index: 9001;
+						   top:0px;
+						   left:0px;
+						   width:100%;
+						}
+						a.close {
+						opacity: 0.5;
+						text-decoration:none;
+						font-weight:bold;
+						font-size: 15px;
+						font-family: "Verdana";
+						color:#fff;
+						}
+						a.close:hover {
+						opacity: 1;
+						color:#fff;
+						}
+						 </style>
+						
+					<script type="text/javascript" src="catalog/view/javascript/videopopup.js"></script>
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/controller/module/special.php" error="log">
+		<operation error="log">
+			<search position="before"><![CDATA[
+				$this->data['products'][] = array(
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+							$video = $this->model_catalog_product->getProductVideos($result['product_id']);
+                                if($video){
+                                    $playlist = $this->url->link('module/hdwplayer/getPlaylist%26product_id='.$result['product_id']);
+                                    $this->data['product_video'][]=array(
+                                        'embed' => $this->model_catalog_hdwplayer->getPlayer($playlist,$skin),
+                                        'id' => $result['product_id']
+                                    );
+                                }
+                                else {
+                                    $this->data['product_video'][]=array(
+                                    	'embed' => '',
+                                        'id' => ''
+                                    );
+                                }
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="after"><![CDATA[
+				$results = $this->model_catalog_product->getProductSpecials($data);
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						$this->load->model('catalog/hdwplayer');
+                        $skin = $this->url->link('module/hdwplayer/getSkin');
+                        $this->data['player_size'] = $this->model_catalog_product->getPlayerSize();
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/view/theme/*/template/module/bestseller.tpl" error="log">
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				 <div class="box-product
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php $video = 0; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				<div class="price">
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php if($product_video[$video]['id'] != '') { ?>
+ 						<div><a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',<?php echo $player_size['width']; ?>,<?php echo $player_size['height']; ?>)" ><img src="image/hdwplayer/dis_video.jpg" title="<?php echo $product['name']; ?> Videos"/></a></div>
+ 						<div id="blanket" style="display:none;"></div>
+						<div  id="playerDiv<?php echo $product_video[$video]['id']; ?>" style="display:none;">
+           					<a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',1,1)" class="close" title="close">X</a>
+           					<?php echo $product_video[$video]['embed']; ?>
+           				</div>
+          		<?php } ?>
+                <?php $video++; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="bottom"></search>
+			<add trim="true"><![CDATA[
+			<?php if(isset($product_video)) { ?>
+				<?php foreach($product_video as $product) { ?>
+				<?php if($product['id'] != '') { ?>
+					<style type="text/css">
+								#playerDiv<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						
+						#playerDiv<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDiv<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+								</style>
+								<?php } ?>
+					<?php } } ?>
+							<style type="text/css">
+						    #blanket {
+						   background-color:#111;
+						   opacity: 0.40;
+						   
+						   position:absolute;
+						   z-index: 9001;
+						   top:0px;
+						   left:0px;
+						   width:100%;
+						}
+						a.close {
+						opacity: 0.5;
+						text-decoration:none;
+						font-weight:bold;
+						font-size: 15px;
+						font-family: "Verdana";
+						color:#fff;
+						}
+						a.close:hover {
+						opacity: 1;
+						color:#fff;
+						}
+						 </style>
+						
+					<script type="text/javascript" src="catalog/view/javascript/videopopup.js"></script>
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/controller/module/bestseller.php" error="log">
+		<operation error="log">
+			<search position="before"><![CDATA[
+				$this->data['products'][] = array(
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+							$video = $this->model_catalog_product->getProductVideos($result['product_id']);
+                                if($video){
+                                    $playlist = $this->url->link('module/hdwplayer/getPlaylist%26product_id='.$result['product_id']);
+                                    $this->data['product_video'][]=array(
+                                        'embed' => $this->model_catalog_hdwplayer->getPlayer($playlist,$skin),
+                                        'id' => $result['product_id']
+                                    );
+                                }
+                                else {
+                                    $this->data['product_video'][]=array(
+                                    	'embed' => '',
+                                        'id' => ''
+                                    );
+                                }
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="after"><![CDATA[
+				$results = $this->model_catalog_product->getBestSellerProducts($setting['limit']);
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						$this->load->model('catalog/hdwplayer');
+                        $skin = $this->url->link('module/hdwplayer/getSkin');
+                        $this->data['player_size'] = $this->model_catalog_product->getPlayerSize();
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/view/theme/*/template/product/manufacturer_info.tpl" error="log">
+		<operation error="log">
+					<search position="after" ><![CDATA[
+						 <?php if ($products) { ?>
+						]]>
+					</search>
+					<add trim="true"><![CDATA[
+					<?php if(isset($product_video)) { ?>
+						<div id="blanket" style="display:none;"></div>
+						<?php } ?>
+		        ]]>
+					</add>
+				</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				 <div class="product-list">
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php $video = 0; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="replace" ><![CDATA[
+				<div class="description"><?php echo $product['description']; ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<div class="description"><?php echo $product['description']; ?>
+				<?php if($product_video[$video]['id'] != '') { ?>
+ 						<div><a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',<?php echo $player_size['width']; ?>,<?php echo $player_size['height']; ?>)" ><img src="image/hdwplayer/dis_video.jpg" title="<?php echo $product['name']; ?> Videos"/></a></div>
+ 						
+						<div  id="playerDiv<?php echo $product_video[$video]['id']; ?>" style="display:none;">
+           					<a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',1,1)" class="close" title="close">X</a>
+           					<?php echo $product_video[$video]['embed']; ?>
+           				</div>
+          		<?php } ?>
+                <?php $video++; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				$('.product-list').attr('class', 'product-grid');
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			var video=0;
+			var productVideo = <?php echo json_encode($product_video); ?>;
+			var playersize = <?php echo json_encode($player_size); ?>;
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before" index="2" ><![CDATA[
+				var rating = $(element).find('.rating').html();
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			if(productVideo[video]["id"] != '')
+						{   
+							html += '<div><a onclick="popup(\'playerDivG'+productVideo[video]["id"]+'\','+playersize["width"]+','+playersize["height"]+')" ><img src="image/hdwplayer/dis_video.jpg" /></a></div>';
+ 							
+							html += '<div  id="playerDivG'+productVideo[video]["id"]+'" style="display:none;">';
+                            html += '<a onclick="popup(\'playerDivG'+productVideo[video]["id"]+'\',1,1)" class="close" title="close">X</a>';
+                            html += productVideo[video]["embed"];
+                            html += '</div>';
+						}
+                video++;
+						
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before" ><![CDATA[
+				<?php echo $footer; ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<?php if(isset($product_video)) { ?>
+				<?php foreach($product_video as $product) { ?>
+				<?php if($product['id'] != '') { ?>
+					<style type="text/css">
+								#playerDiv<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						#playerDivG<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						#playerDivG<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDivG<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+						#playerDiv<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDiv<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+								</style>
+								<?php } ?>
+					<?php } } ?>
+							<style type="text/css">
+						    #blanket {
+						   background-color:#111;
+						   opacity: 0.40;
+						   position:absolute;
+						   z-index: 9001;
+						   top:0px;
+						   left:0px;
+						   width:100%;
+						} 
+						a.close {
+						opacity: 0.5;
+						text-decoration:none;
+						font-weight:bold;
+						font-size: 15px;
+						font-family: "Verdana";
+						color:#fff;
+						}
+						a.close:hover {
+						opacity: 1;
+						color:#fff;
+						}
+						</style>
+						<script type="text/javascript" src="catalog/view/javascript/videopopup.js"></script>
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/controller/product/manufacturer.php" error="log">
+		<operation error="log">
+			<search position="before"><![CDATA[
+				$this->data['products'][] = array(
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$video = $this->model_catalog_product->getProductVideos($result['product_id']);
+                                if($video){
+                                    $playlist = $this->url->link('module/hdwplayer/getPlaylist%26product_id='.$result['product_id']);
+                                    $this->data['product_video'][]=array(
+                                        'embed' => $this->model_catalog_hdwplayer->getPlayer($playlist,$skin),
+                                        'id' => $result['product_id']
+                                    );
+                                }
+                                else {
+                                    $this->data['product_video'][]=array(
+                                    	'embed' => '',
+                                        'id' => ''
+                                    );
+                                }
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="after"><![CDATA[
+				$results = $this->model_catalog_product->getProducts($data);
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						$this->load->model('catalog/hdwplayer');
+                        $skin = $this->url->link('module/hdwplayer/getSkin');
+                        $this->data['player_size'] = $this->model_catalog_product->getPlayerSize();
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/view/theme/*/template/product/search.tpl" error="log">
+		<operation error="log">
+					<search position="after" ><![CDATA[
+						 <?php if ($products) { ?>
+						]]>
+					</search>
+					<add trim="true"><![CDATA[
+					<?php if(isset($product_video)) { ?>
+						<div id="blanket" style="display:none;"></div>
+						<?php } ?>
+		        ]]>
+					</add>
+				</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				 <div class="product-list">
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php $video = 0; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="replace" ><![CDATA[
+				<div class="description"><?php echo $product['description']; ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<div class="description"><?php echo $product['description']; ?>
+				<?php if($product_video[$video]['id'] != '') { ?>
+ 						<div><a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',<?php echo $player_size['width']; ?>,<?php echo $player_size['height']; ?>)" ><img src="image/hdwplayer/dis_video.jpg" title="<?php echo $product['name']; ?> Videos"/></a></div>
+ 						
+						<div  id="playerDiv<?php echo $product_video[$video]['id']; ?>" style="display:none;">
+           					<a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',1,1)" class="close" title="close">X</a>
+           					<?php echo $product_video[$video]['embed']; ?>
+           				</div>
+          		<?php } ?>
+                <?php $video++; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				$('.product-list').attr('class', 'product-grid');
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			var video=0;
+			var productVideo = <?php echo json_encode($product_video); ?>;
+			var playersize = <?php echo json_encode($player_size); ?>;
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before" index="2" ><![CDATA[
+				var rating = $(element).find('.rating').html();
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			if(productVideo[video]["id"] != '')
+						{   
+							html += '<div><a onclick="popup(\'playerDivG'+productVideo[video]["id"]+'\','+playersize["width"]+','+playersize["height"]+')" ><img src="image/hdwplayer/dis_video.jpg" /></a></div>';
+ 							
+							html += '<div  id="playerDivG'+productVideo[video]["id"]+'" style="display:none;">';
+                            html += '<a onclick="popup(\'playerDivG'+productVideo[video]["id"]+'\',1,1)" class="close" title="close">X</a>';
+                            html += productVideo[video]["embed"];
+                            html += '</div>';
+						}
+                video++;
+						
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before" ><![CDATA[
+				<?php echo $footer; ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<?php if(isset($product_video)) { ?>
+				<?php foreach($product_video as $product) { ?>
+				<?php if($product['id'] != '') { ?>
+					<style type="text/css">
+								#playerDiv<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						#playerDivG<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						#playerDivG<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDivG<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+						#playerDiv<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDiv<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+								</style>
+								<?php } ?>
+					<?php } } ?>
+							<style type="text/css">
+						    #blanket {
+						   background-color:#111;
+						   opacity: 0.40;
+						   
+						   position:absolute;
+						   z-index: 9001;
+						   top:0px;
+						   left:0px;
+						   width:100%;
+						} 
+						a.close {
+						opacity: 0.5;
+						text-decoration:none;
+						font-weight:bold;
+						font-size: 15px;
+						font-family: "Verdana";
+						color:#fff;
+						}
+						a.close:hover {
+						color:#fff;
+						opacity: 1;
+						}
+						</style>
+						<script type="text/javascript" src="catalog/view/javascript/videopopup.js"></script>
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/controller/product/search.php" error="log">
+		<operation error="log">
+			<search position="before"><![CDATA[
+				$this->data['products'][] = array(
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$video = $this->model_catalog_product->getProductVideos($result['product_id']);
+                                if($video){
+                                    $playlist = $this->url->link('module/hdwplayer/getPlaylist%26product_id='.$result['product_id']);
+                                    $this->data['product_video'][]=array(
+                                        'embed' => $this->model_catalog_hdwplayer->getPlayer($playlist,$skin),
+                                        'id' => $result['product_id']
+                                    );
+                                }
+                                else {
+                                    $this->data['product_video'][]=array(
+                                    	'embed' => '',
+                                        'id' => ''
+                                    );
+                                }
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="after"><![CDATA[
+				$results = $this->model_catalog_product->getProducts($data);
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						$this->load->model('catalog/hdwplayer');
+                        $skin = $this->url->link('module/hdwplayer/getSkin');
+                        $this->data['player_size'] = $this->model_catalog_product->getPlayerSize();
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/view/theme/*/template/product/special.tpl" error="log">
+		<operation error="log">
+					<search position="after" ><![CDATA[
+						 <?php if ($products) { ?>
+						]]>
+					</search>
+					<add trim="true"><![CDATA[
+					<?php if(isset($product_video)) { ?>
+						<div id="blanket" style="display:none;"></div>
+						<?php } ?>
+		        ]]>
+					</add>
+				</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				 <div class="product-list">
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				<?php $video = 0; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="replace" ><![CDATA[
+				<div class="description"><?php echo $product['description']; ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<div class="description"><?php echo $product['description']; ?>
+				<?php if($product_video[$video]['id'] != '') { ?>
+ 						<div><a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',<?php echo $player_size['width']; ?>,<?php echo $player_size['height']; ?>)" ><img src="image/hdwplayer/dis_video.jpg" title="<?php echo $product['name']; ?> Videos"/></a></div>
+ 						
+						<div  id="playerDiv<?php echo $product_video[$video]['id']; ?>" style="display:none;">
+           					<a onclick="popup('playerDiv<?php echo $product_video[$video]['id']; ?>',1,1)" class="close" title="close">X</a>
+           					<?php echo $product_video[$video]['embed']; ?>
+           				</div>
+          		<?php } ?>
+                <?php $video++; ?>
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="after" ><![CDATA[
+				$('.product-list').attr('class', 'product-grid');
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			var video=0;
+			var productVideo = <?php echo json_encode($product_video); ?>;
+			var playersize = <?php echo json_encode($player_size); ?>;
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before" index="2" ><![CDATA[
+				var rating = $(element).find('.rating').html();
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			if(productVideo[video]["id"] != '')
+						{   
+							html += '<div><a onclick="popup(\'playerDivG'+productVideo[video]["id"]+'\','+playersize["width"]+','+playersize["height"]+')" ><img src="image/hdwplayer/dis_video.jpg" /></a></div>';
+ 							
+							html += '<div  id="playerDivG'+productVideo[video]["id"]+'" style="display:none;">';
+                            html += '<a onclick="popup(\'playerDivG'+productVideo[video]["id"]+'\',1,1)" class="close" title="close">X</a>';
+                            html += productVideo[video]["embed"];
+                            html += '</div>';
+						}
+                video++;
+						
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+			<search position="before" ><![CDATA[
+				<?php echo $footer; ?>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+			<?php if(isset($product_video)) { ?>
+				<?php foreach($product_video as $product) { ?>
+				<?php if($product['id'] != '') { ?>
+					<style type="text/css">
+						#playerDiv<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						#playerDivG<?php echo $product['id']; ?> {
+							position:absolute;
+							border: 4px solid #C0C0C0;
+							border-radius: 5px;
+							z-index: 9002;
+							width: <?php echo $player_size['width']; ?>px;
+							height: <?php echo $player_size['height']; ?>px;
+						}
+						#playerDivG<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDivG<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+						#playerDiv<?php echo $product['id']; ?> a.close {
+							display:none;
+						}
+						#playerDiv<?php echo $product['id']; ?>:hover a.close {
+							display:block;
+							position:absolute;
+							top:5px; right:5px
+						}
+								</style>
+								<?php } ?>
+					<?php } } ?>
+						<style type="text/css">
+						    #blanket {
+						   background-color:#111;
+						   opacity: 0.40;
+						   
+						   position:absolute;
+						   z-index: 9001;
+						   top:0px;
+						   left:0px;
+						   width:100%;
+						} 
+						a.close {
+							opacity: 0.5;
+							text-decoration:none;
+							font-weight:bold;
+							font-size: 15px;
+							font-family: "Verdana";
+							color:#fff;
+						}
+						a.close:hover {
+						opacity: 1;
+						color:#fff;
+						}
+						</style>
+						<script type="text/javascript" src="catalog/view/javascript/videopopup.js"></script>
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/controller/product/special.php" error="log">
+		<operation error="log">
+			<search position="before"><![CDATA[
+				$this->data['products'][] = array(
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+				$video = $this->model_catalog_product->getProductVideos($result['product_id']);
+                                if($video){
+                                    $playlist = $this->url->link('module/hdwplayer/getPlaylist%26product_id='.$result['product_id']);
+                                    $this->data['product_video'][]=array(
+                                        'embed' => $this->model_catalog_hdwplayer->getPlayer($playlist,$skin),
+                                        'id' => $result['product_id']
+                                    );
+                                }
+                                else {
+                                    $this->data['product_video'][]=array(
+                                    	'embed' => '',
+                                        'id' => ''
+                                    );
+                                }
+        ]]>
+			</add>
+		</operation>
+		<operation error="log">
+		<search position="after"><![CDATA[
+				$results = $this->model_catalog_product->getProductSpecials($data);
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						$this->load->model('catalog/hdwplayer');
+                        $skin = $this->url->link('module/hdwplayer/getSkin');
+                        $this->data['player_size'] = $this->model_catalog_product->getPlayerSize();
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/view/theme/*/template/common/header.tpl" error="log">
+		<operation error="log">
+		<search position="before" offset="3"><![CDATA[
+				<div id="notification"></div>
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						<?php if($this->config->get('tab_visible') == "true") { ?>
+						<li id="video"><a href="<?php echo $videogallery; ?>" class="top"><?php if($this->config->get('tab_name')){ echo $this->config->get('tab_name'); } else { echo "Video Gallery"; }?></a></li>
+						<?php } ?>
+        ]]>
+			</add>
+		</operation>
+		</file>
+		<file name="catalog/controller/common/header.php" error="log">
+		<operation error="log">
+		<search position="before" ><![CDATA[
+				$this->load->model('catalog/category');
+				]]>
+			</search>
+			<add trim="true"><![CDATA[
+						$this->data['videogallery'] = $this->url->link('information/videogallery');
+        ]]>
+			</add>
+		</operation>
+		</file>
+</modification>

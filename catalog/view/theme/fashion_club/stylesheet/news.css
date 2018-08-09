@@ -1,0 +1,67 @@
+/* ----------------------------------------------------
+// News Module for Opencart v1.5.6   					
+// Modified by villagedefrance                          		
+// contact@villagedefrance.net                         		
+//-----------------------------------------------------
+*/
+
+/* News Module Box */
+.box-news {
+	background: #7e44a8;
+		border: 1px solid #fff;
+	color: #fff;
+	display: block;
+	padding: 20px;
+	margin-bottom: 0;
+	overflow: auto;
+	float: left;
+	width: 184px;
+	height: 150px;
+}
+
+.box-news:first-child {
+width: 636px;
+}
+
+.box-news small {
+font-size: 11px;
+}
+
+.box-news h4 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.box-news p {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+/* News Information Page */
+.content-news {
+	background: #FBFBFB;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: auto;
+	border: 1px solid #DBDEE1;
+}
+.content-news .news {
+	width: 100%;
+}
+.content-news .news a {
+	text-decoration: none;
+}
+.content-news .news h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+	text-shadow: 0 1px 1px silver;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.content-news .news p {
+	margin: 5px 0px;
+}
+.content-news .news .image {
+	width: auto;
+	float: right;
+	margin: 5px;
+}

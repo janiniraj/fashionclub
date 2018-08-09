@@ -1,0 +1,125 @@
+<modification>
+
+<id>Pakej Bundle - Malaysia Bank Transfer Extension V2.3</id>
+<version>2.3</version>
+<vqmver>2.4.1</vqmver>
+<author>opencartmy@gmail.com</author>
+
+<file name="catalog/view/theme/*/template/checkout/payment_method.tpl">
+<operation>
+<search position="replace">
+<![CDATA[
+<td><label for="<?php echo $payment_method['code']; ?>"><?php echo $payment_method['title']; ?></label></td>
+]]>
+</search>
+<add>
+<![CDATA[
+<td class="title" valign="top"><label for="<?php echo $payment_method['code']; ?>">
+<?php if ($payment_method['code']=="bank_transfer_alliancebank")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_ambank")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_bankislam")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_bankmuamalat")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_bankrakyat")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_cimb")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_hongleongbank")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_hsbc")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_maybank")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_maybank2upay")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_publicbank")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="bank_transfer_rhb")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="cash_on_pickup")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="cod")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="free_checkout")  echo $payment_method['icon_payment'];?>
+<?php if ($payment_method['code']=="pp_standard")  echo $payment_method['icon_payment'];?>
+<span style="vertical-align:middle;"><?php echo $payment_method['title']; ?></span>
+</label>				
+</td>
+]]>
+</add>
+</operation>       
+</file>
+
+<file name="admin/view/template/extension/payment.tpl">
+<operation>
+<search position="replace"><![CDATA[
+<td class="center"><?php echo $extension['link'] ?></td>
+]]>
+</search>
+<add>
+<![CDATA[
+<td class="center">
+<?php if ($extension['name']=="Cash On Delivery") echo '<img src="view/image/payment/cash-on-delivery.png" title="Cash On Delivery"/>';?>
+<?php if ($extension['name']=="Cash On Pickup") echo '<img src="view/image/payment/cash-on-pickup.png" title="Cash On Pickup"/>';?>
+<?php if ($extension['name']=="Free Checkout") echo '<img src="view/image/payment/free-checkout.png" title="Free Checkout"/>';?>
+<?php echo $extension['link'];?>
+</td>				
+]]>
+</add>
+</operation> 
+</file>
+
+<file name="catalog/language/*/payment/cod.php"><operation>
+<search position="before"><![CDATA[?>]]></search>
+<add>
+<![CDATA[$_['icon_payment']     = '<img style="vertical-align:middle" src="image/data/payment/cash-on-delivery.png"/> &nbsp;';]]>
+</add>
+</operation></file>
+
+<file name="catalog/model/payment/cod.php"><operation>
+<search position="after"><![CDATA['title'      => $this->language->get('text_title'),]]></search>
+<add>
+<![CDATA['icon_payment'=> $this->language->get('icon_payment'),]]>
+</add>
+</operation></file>
+
+<file name="catalog/language/*/payment/free_checkout.php"><operation>
+<search position="before"><![CDATA[?>]]></search>
+<add>
+<![CDATA[$_['icon_payment']     = '<img style="vertical-align:middle" src="image/data/payment/free-checkout.png"/> &nbsp;';]]>
+</add>
+</operation></file>
+
+<file name="catalog/model/payment/free_checkout.php"><operation>
+<search position="after"><![CDATA['title'      => $this->language->get('text_title'),]]></search>
+<add>
+<![CDATA['icon_payment'=> $this->language->get('icon_payment'),]]>
+</add>
+</operation></file>
+
+<file name="catalog/language/*/payment/pp_standard.php">
+<operation>
+<search position="before"><![CDATA[?>]]></search>
+<add>
+<![CDATA[$_['icon_payment']     = '<img style="vertical-align:middle" src="image/data/payment/paypal.png"/> &nbsp;';]]>
+</add>
+</operation>
+<operation>
+<search position="replace"><![CDATA[$_['text_title']    = 'PayPal';]]></search>
+<add>
+<![CDATA[$_['text_title']    = 'PayPal or Debit/Credit Card';]]>
+</add>
+</operation>
+</file>
+
+<file name="catalog/model/payment/pp_standard.php"><operation>
+<search position="after"><![CDATA['title'      => $this->language->get('text_title'),]]></search>
+<add>
+<![CDATA['icon_payment'=> $this->language->get('icon_payment'),]]>
+</add>
+</operation></file>
+
+<file name="catalog/language/*/payment/pp_express.php"><operation>
+<search position="before"><![CDATA[?>]]></search>
+<add>
+<![CDATA[$_['icon_payment']     = '<img style="vertical-align:middle" src="image/data/payment/paypal.png"/> &nbsp;';]]>
+</add>
+</operation></file>
+
+<file name="catalog/model/payment/pp_express.php"><operation>
+<search position="after"><![CDATA['title'      => $this->language->get('text_title'),]]></search>
+<add>
+<![CDATA['icon_payment'=> $this->language->get('icon_payment'),]]>
+</add>
+</operation></file>
+
+</modification>

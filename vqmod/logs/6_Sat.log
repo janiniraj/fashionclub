@@ -1,0 +1,15 @@
+---------- Date: 2014-03-15 03:13:24 ~ IP : 121.123.135.93 ----------
+REQUEST URI : /admin/
+MOD DETAILS:
+   modFile   : /home/webuser/helloworld/htdocs/vqmod/xml/opencartmy_payment_notification_form.xml
+   id        : Payment Notification Form for Bank Transfer
+   version   : 1.2
+   vqmver    : 2.4.1
+   author    : opencartmy@gmail.com
+VQModObject::parseMods - Could not resolve path for [catalog/language/malay/common/footer.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/malay/module/information.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/malay/checkout/success.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/language/malay/mail/order.php] (SKIPPED)
+----------------------------------------------------------------------
+
+

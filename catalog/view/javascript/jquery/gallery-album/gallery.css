@@ -1,0 +1,68 @@
+.box-gallery {
+	width: 100%;
+	overflow: auto;
+}
+.box-gallery > div {
+	display: inline-block;
+	vertical-align: top;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding:10px;
+    border: 1px solid #E7E7E7;
+}
+.box-gallery .image {
+	display: block;
+}
+.box-gallery .image img {
+}
+.box-gallery .name {
+	margin-bottom: 8px;
+    text-align: center;
+}
+.box-gallery .name a {
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+.box-gallery .desc {
+    color:#666;
+}
+.box-album {
+	width: 100%;
+	overflow: auto;
+}
+.box-album > div {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:10px;
+}
+.box-album .image {
+	display: block;
+	margin-bottom: 8px;
+}
+.box-album .image img {
+}
+.box-album .name {
+	margin-bottom: 4px;
+}
+.box-album .name a {
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+.box-album .desc {
+    color:#666;
+}
+.album-info {
+	overflow: auto;
+	margin-bottom: 20px;
+    color:#333;
+}
+.album-info .image {
+    padding: 10px;
+	border: 1px solid #E7E7E7;
+}
